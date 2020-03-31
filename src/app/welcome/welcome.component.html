@@ -1,0 +1,25 @@
+<div class="title">
+  <mat-card-title class="title"><h1>English (EFL) Quizzes</h1></mat-card-title>
+</div>
+<div>
+    <mat-card>
+    <div [style.border-radius] ="'6px'" [style.max-width]="'400px'" [style.box-shadow]="'1px 1px 1px 1px lightgray'" [style.backgroundColor]="'white'" 
+    *ngFor="let q of quiz">
+          <div>
+          <img [style.max-width]="'450px'" src="{{q.image}}">
+          <mat-card-content>
+            <h3>{{q.label}}</h3>
+            <h4>{{q.description}}</h4></mat-card-content>
+          </div>
+          <mat-card-actions>
+            <button routerLink="/{{q.name}}">
+              <h3 class ="btn-text">Go to quiz</h3>
+            </button>
+          </mat-card-actions>
+    </div>
+  </mat-card>
+  </div>
+
+
+  
+

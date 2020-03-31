@@ -1,0 +1,59 @@
+div {
+  margin: 0px 10px 20px 10px;
+}
+mat-card {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+  }
+  mat-card-actions {
+    position: relative;
+  }
+
+  mat-card-actions button {
+    position: absolute;
+    right: -12px;
+    top: 0px;
+}  
+mat-card-title {
+    border-bottom: 2px solid gray;
+  }
+  .title {
+    padding: 20px 150px 20px 150px;  
+    text-align: center;
+  }
+  button {
+    color:#007bff;
+    background-color: transparent;
+    text-align: center;
+    display: inline-block;
+    transition-duration: 0.4s;
+    border-radius: 6px;
+    border-color: #007bff;
+  }
+  button:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  @media (max-width: 1080px) {
+    .title {
+      padding: 20px 50px 20px 50px;  
+    }
+  }
+
+  @media (max-width: 1080px) {
+    mat-card {
+      width: 50%;
+      margin: auto;
+      text-align: center;
+    }
+  }
+  
+  @media (min-width: 1900px) {
+    mat-card {
+      width: 25%;
+      margin: auto;
+      text-align: center;
+    }
+  }

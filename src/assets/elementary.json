@@ -1,0 +1,20 @@
+[
+  {
+    "label": "Choose the correct option to complete the sentence: \n I ____ 30 years old.",
+    "choices": [
+      {"value": "have  ", "correct": false},
+      {"value": "am  ", "correct": true},
+      {"value": "do  ", "correct": false},
+      {"value": "is  ", "correct": false}
+    ]
+  },
+  {
+    "label": "Choose the correct option to complete the sentence: \n My name ____ is Sarah.",
+    "choices": [
+      {"value": "is  ", "correct": true},
+      {"value": "am  ", "correct": false},
+      {"value": "are  ", "correct": false},
+      {"value": "do  ", "correct": false}
+    ]
+  }
+]

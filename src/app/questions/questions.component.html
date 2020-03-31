@@ -1,0 +1,28 @@
+<div *ngIf="quiz && !questions" class="spinner-grow text-primary"></div>
+<div class="title">
+  <mat-card-title class="title"><h1>English (EFL) Quizzes</h1></mat-card-title>
+</div>
+<div *ngIf="questions">
+<mat-card>
+  <div [style.border-radius] ="'6px'"[style.padding]="'0px 14px 0px 22px'" [style.box-shadow]="'1px 1px 1px 1px lightgray'" class="questions" *ngIf="!showResults">
+    <img mat-card-image src="assets/image7.jpg">
+    <app-question-form
+      [style.font-size]="'12px'"
+      [question]="questions[currentQuestionIndex]"
+      (onChoiceMade)="updateChoice($event)">
+    </app-question-form>
+    <div [style.padding] ="'10px'">
+      <mat-card-actions>
+      <button
+      [style.font-size]="'14px'"
+      (click)="nextOrViewResults()"
+      [disabled]="!answers.values[currentQuestionIndex]"
+      >{{currentQuestionIndex === questions.length - 1 ? 'View results' : 'Next'}}
+      </button>
+    </mat-card-actions>
+    </div>
+  </div>
+  <app-results *ngIf="showResults" [answers]="answers"></app-results>
+</mat-card>
+</div>
+

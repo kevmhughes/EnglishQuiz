@@ -1,0 +1,50 @@
+div {
+  margin: 0px 10px 20px 10px;
+}
+  .answer{
+    background-color: rgb(248, 97, 97);
+    width: auto;
+    font-size: 26px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  
+  .correct{
+    background-color: rgb(146, 227, 146);
+  }
+  
+  mat-card{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+  }
+  mat-card-actions {
+    position: relative;
+  }
+
+  mat-card-actions button {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}  
+  .title{
+    margin: auto;
+    background-color: #000057;
+    color: white;
+    font-size: 30px;
+  }
+  button {
+    color:#007bff;
+    background-color: transparent;
+    text-align: center;
+    display: inline-block;
+    transition-duration: 0.4s;
+    border-radius: 4px;
+    border-color: #007bff;
+  }
+  button:hover {
+    background-color: #007bff;
+    color: white;
+  }
