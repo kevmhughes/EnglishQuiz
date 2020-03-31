@@ -9,7 +9,7 @@
           <img [style.max-width]="'450px'" src="{{q.image}}">
           <mat-card-content>
             <h3>{{q.label}}</h3>
-            <h4>{{q.description}}</h4></mat-card-content>
+            <h4 [style.color]="'darkgray'">{{q.description}}</h4></mat-card-content>
           </div>
           <mat-card-actions>
             <button routerLink="/{{q.name}}">
