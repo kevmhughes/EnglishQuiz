@@ -7,7 +7,7 @@
   <div [style.border-radius] ="'6px'"[style.padding]="'0px 14px 0px 22px'" [style.box-shadow]="'1px 1px 1px 1px lightgray'" class="questions" *ngIf="!showResults">
     <img mat-card-image src="assets/image7.jpg">
     <app-question-form
-      [style.font-size]="'12px'"
+      [style.font-size]="'16px'"
       [question]="questions[currentQuestionIndex]"
       (onChoiceMade)="updateChoice($event)">
     </app-question-form>
