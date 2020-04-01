@@ -41,6 +41,11 @@ mat-card-title {
     }
   }
 
+  @media (max-width: 680px) {
+    .title {
+      padding: 20px 50px 20px 50px;  
+    }
+  }
   @media (max-width: 1080px) {
     mat-card {
       width: 50%;
@@ -56,7 +61,6 @@ mat-card-title {
       text-align: center;
     }
   }
-  
   @media (min-width: 1900px) {
     mat-card {
       width: 30%;
