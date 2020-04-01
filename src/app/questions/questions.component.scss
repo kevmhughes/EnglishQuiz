@@ -48,10 +48,18 @@ mat-card-title {
       text-align: center;
     }
   }
+
+  @media (max-width: 1380px) {
+    mat-card {
+      width: 45%;
+      margin: auto;
+      text-align: center;
+    }
+  }
   
   @media (min-width: 1900px) {
     mat-card {
-      width: 25%;
+      width: 30%;
       margin: auto;
       text-align: center;
     }
