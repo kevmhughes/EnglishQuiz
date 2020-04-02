@@ -1,0 +1,20 @@
+[
+  {
+    "label": "Complete the following sentence with the correct option from the list: He _______ at home yesterday.",
+    "choices": [
+      {"value": "is  ", "correct": false},
+      {"value": "wasn´t  ", "correct": true},
+      {"value": "were  ", "correct": false},
+      {"value": "has  ", "correct": false}
+    ]
+  },
+  {
+    "label": "Complete the following sentence with the correct option from the list: I _______ been to Paris yet.",
+    "choices": [
+      {"value": "have  ", "correct": false},
+      {"value": "haven´t  ", "correct": true},
+      {"value": "has  ", "correct": false},
+      {"value": "was  ", "correct": false}
+    ]
+  }
+]

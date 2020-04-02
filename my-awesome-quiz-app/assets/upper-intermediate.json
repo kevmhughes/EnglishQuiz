@@ -1,0 +1,20 @@
+[
+  {
+    "label": "Fill the gap with the correct option from the list: If I ____ known that you were coming, I would have baked a cake.",
+    "choices": [
+      {"value": "had  ", "correct": true},
+      {"value": "hadn´t  ", "correct": false},
+      {"value": "were  ", "correct": false},
+      {"value": "have  ", "correct": false}
+    ]
+  },
+  {
+    "label": "Complete the sentence with the correct adverb: You speak very ______.",
+    "choices": [
+      {"value": "quick  ", "correct": false},
+      {"value": "rapid  ", "correct": false},
+      {"value": "fast ", "correct": true},
+      {"value": "slow  ", "correct": false}
+    ]
+  }
+]
