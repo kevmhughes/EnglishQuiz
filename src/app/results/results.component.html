@@ -1,14 +1,40 @@
-<div [style.border-radius] ="'6px'"[style.padding]="'0px 14px 15px 22px'" [style.box-shadow]="'1px 1px 1px 1px lightgray'" class="results">
-  <img mat-card-image src="assets/image8.jpg">
-    <div class="answer" *ngFor="let a of answers.values" [ngClass]="{correct: a.correct}">
-      {{a.value}}
+<div 
+[style.border-radius] ="'20px'"
+[style.padding]="'0px 14px 0px 22px'" 
+[style.box-shadow]="'0px 3px 7px 0px rgba(112,112,112,1)'"
+class="results">
+  <mat-card-title>YOUR RESULTS!</mat-card-title>
+    <div [style.background-color]="'#F5F5F5'"
+         [style.padding]="'70px 0px 40px 0px'"
+         [style.margin]="'-20px -14px -15px -22px'" >
+      <img class="wiggle" [style.animation-name]="'wiggle'" [style.max-width] ="'100px'" 
+    mat-card-image src="assets/image8.png">
     </div>
-    <div>
-    <mat-card-actions>
-      <button [style.margin]="'10px 0px 0px 0px'"[style.font-size]="'14px'" routerLink="/welcome">
+  <mat-card-content>
+    <div class="answer" 
+    *ngFor="let a of answers.values" 
+    [ngClass]="{correct: a.correct}">
+    <img class="icon" *ngIf="!a.correct"  src="./assets/false.png" 
+      [style.max-height] ="'20px'"
+      [style.margin-top] ="'2px'"
+      >
+      <img *ngIf="a.correct"  src="./assets/correct.jpg" 
+      [style.max-height] ="'20px'"
+      [style.margin-top] ="'2px'"
+      >
+      <div>{{a.value}}</div>
+      </div>
+      <button 
+      [style.margin]="'10px 0px 0px 0px'"
+      [style.font-size]="'14px'" 
+      [style.margin]="'0px 0px 10px 0px'"
+      [style.position]="'absolute'"
+      [style.right]="'40px'"
+      [style.bottom]="'25px'"
+      routerLink="/welcome">
         Choose another quiz
       </button>
-    </mat-card-actions>
-  </div>
+  </mat-card-content>
+    
   </div>
 

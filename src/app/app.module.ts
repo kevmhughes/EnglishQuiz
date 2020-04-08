@@ -15,6 +15,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule} from '@angular/material/card';
 
 import {MatDividerModule} from '@angular/material/divider';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 const appRoutes: Routes = [
   { path: 'welcome', component: WelcomeComponent },
@@ -28,7 +30,9 @@ const appRoutes: Routes = [
     QuestionFormComponent,
     ResultsComponent,
     WelcomeComponent,
-    QuestionsComponent
+    QuestionsComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserAnimationsModule,

@@ -8,4 +8,5 @@ import { Answers } from '../quiz.model';
 })
 export class ResultsComponent {
   @Input() answers: Answers;
+
 }

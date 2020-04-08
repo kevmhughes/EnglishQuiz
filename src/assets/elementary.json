@@ -1,6 +1,6 @@
 [
   {
-    "label": "Choose the correct option to complete the sentence: \n I ____ 30 years old.",
+    "label": "I ____ 30 years old.",
     "choices": [
       {"value": "have  ", "correct": false},
       {"value": "am  ", "correct": true},
@@ -9,11 +9,29 @@
     ]
   },
   {
-    "label": "Choose the correct option to complete the sentence: \n My name ____ Sarah.",
+    "label": "My name ____ Sarah.",
     "choices": [
       {"value": "is  ", "correct": true},
       {"value": "am  ", "correct": false},
       {"value": "are  ", "correct": false},
+      {"value": "do  ", "correct": false}
+    ]
+  },
+  {
+    "label": "The sky is ______.",
+    "choices": [
+      {"value": "blue  ", "correct": true},
+      {"value": "yellow  ", "correct": false},
+      {"value": "red  ", "correct": false},
+      {"value": "orange ", "correct": false}
+    ]
+  },
+  {
+    "label": "How old _____ you?",
+    "choices": [
+      {"value": "is  ", "correct": false},
+      {"value": "am  ", "correct": false},
+      {"value": "are  ", "correct": true},
       {"value": "do  ", "correct": false}
     ]
   }

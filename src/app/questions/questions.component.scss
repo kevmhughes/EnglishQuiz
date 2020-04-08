@@ -1,19 +1,25 @@
 div {
-  margin: 0px 10px 20px 10px;
+  margin: 0px 17px 0px 17px;
+}
+.intro {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+  font-size: 20px;
+  font-weight: 350;
+  margin: 8px 0px -8px 0px;
 }
 mat-card {
-    width: 30%;
     margin: auto;
     text-align: center;
+    padding-top: 95px;
   }
   mat-card-actions {
     position: relative;
   }
   mat-card-actions button {
     position: absolute;
-    right: -12px;
-    top: 0px;
-}  
+    right: -10px;
+    top: -35px;
+  }  
 mat-card-title {
     border-bottom: 2px solid gray;
   }
@@ -23,48 +29,66 @@ mat-card-title {
   }
   button {
     color:#007bff;
-    background-color: transparent;
+    padding: 8px;
+    background-color:rgb(253, 253, 253);
     text-align: center;
     display: inline-block;
     transition-duration: 0.4s;
-    border-radius: 6px;
+    border-radius: 8px;
     border-color: #007bff;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
   }
   button:hover {
     background-color: #007bff;
     color: white;
   }
   
-  @media (max-width: 1080px) {
-    .title {
-      padding: 20px 50px 20px 50px;  
-    }
-  }
-
-  @media (max-width: 680px) {
-    .title {
-      padding: 20px 50px 20px 50px;  
-    }
-  }
-  @media (max-width: 1080px) {
+  @media only screen and (min-width: 768px) {
     mat-card {
-      width: 50%;
-      margin: auto;
+      width: 65%;
       text-align: center;
     }
   }
 
-  @media (max-width: 1380px) {
+  @media only screen and (min-width: 1100px) {
     mat-card {
-      width: 45%;
-      margin: auto;
+      width: 60%;
       text-align: center;
     }
   }
-  @media (min-width: 1900px) {
+  @media only screen and (min-width: 1400px) {
+    mat-card {
+      width: 40%;
+      text-align: center;
+    }
+  }
+  @media only screen and (min-width: 1800px) {
+    mat-card {
+      width: 35%;
+      text-align: center;
+    }
+  }
+  @media only screen and (min-width: 2000px) {
     mat-card {
       width: 30%;
-      margin: auto;
       text-align: center;
     }
   }
+ 
+  @media only screen and (max-width: 450px) {
+   .intro {
+      font-size: 18px;
+      text-align: left;
+      margin: 0px 0px -14px 0px;
+    }
+  }
+  @media only screen and (max-width: 370px) {
+    .intro {
+       font-size: 14px;
+       text-align: left;
+       margin: 0px 0px -14px 0px;
+     }
+   }
+
+

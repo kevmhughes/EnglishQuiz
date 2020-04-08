@@ -9,12 +9,31 @@
     ]
   },
   {
-    "label": "Choose the word that completes the sentence: The structure was ____________ obliterated.",
+    "label": "The structure was ____________ obliterated.",
     "choices": [
       {"value": "very  ", "correct": false},
       {"value": "completely  ", "correct": true},
       {"value": "utterly  ", "correct": false},
       {"value": "extremely  ", "correct": false}
+    ]
+  },
+  {
+    "label": "Despite the traffic, I _______ finally arrive.",
+    "choices": [
+      {"value": "could  ", "correct": false},
+      {"value": "managed to ", "correct": true},
+      {"value": "were able to  ", "correct": false},
+      {"value": "shouldn´t  ", "correct": false}
+    ]
+  },
+
+  {
+    "label": "The police oficer accepted the ________ in spite of it being illegal.",
+    "choices": [
+      {"value": "hijack  ", "correct": false},
+      {"value": "stingy  ", "correct": false},
+      {"value": "ransom ", "correct": false},
+      {"value": "bribe  ", "correct": true}
     ]
   }
 ]

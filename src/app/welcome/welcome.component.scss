@@ -1,34 +1,47 @@
 mat-card-title {
   border-bottom: 2px solid gray;
 }
-.title {
-  padding: 20px 150px 20px 150px;  
-}
 mat-card {
     display: flex; 
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 20px 150px 20px 150px;  
+    padding: 80px 150px 0px 150px;   
   }
-  
+  mat-card-actions {
+    margin-top: -20px;
+    padding: 0;
+  }
+
+.text-two {
+  padding-top: 15px;
+  padding-bottom: 5px;
+  color: rgb(64, 63, 63);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+}
+.text {
+  padding-top: 15px;
+  color: rgb(64, 63, 63);
+}
+
+h4{
+  font-weight: lighter;
+}
 
  div {
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 30px 0px;
     text-align: center;
   }
-
   mat-card > div:last-child {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
-
   button {
   color:#007bff;
-  background-color: transparent;
   text-align: center;
   display: inline-block;
   transition-duration: 0.4s;
   border-radius: 6px;
   border-color: #007bff;
+  background-color: white;
 }
 button:hover {
   background-color: #007bff;
@@ -36,6 +49,8 @@ button:hover {
 }
 .btn-text {
   padding: 0px 10px 0px 10px;
+  font-weight: 400;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
 }
 
 @media (max-width: 1080px) {
@@ -43,15 +58,11 @@ button:hover {
     display: flex; 
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 20px 50px 20px 50px;  
+    padding: 80px 20px 30px 20px;  
   }
 }
 
-@media (max-width: 1080px) {
-  .title {
-    padding: 20px 50px 20px 50px;  
-  }
-}
+
 
 
 

@@ -1,6 +1,6 @@
 [
   {
-    "label": "Complete the following sentence with the correct option from the list: He _______ at home yesterday.",
+    "label": "He _______ at home yesterday.",
     "choices": [
       {"value": "is  ", "correct": false},
       {"value": "wasn´t  ", "correct": true},
@@ -9,12 +9,30 @@
     ]
   },
   {
-    "label": "Complete the following sentence with the correct option from the list: I _______ been to Paris yet.",
+    "label": "I _______ been to Paris yet.",
     "choices": [
       {"value": "have  ", "correct": false},
       {"value": "haven´t  ", "correct": true},
       {"value": "has  ", "correct": false},
       {"value": "was  ", "correct": false}
+    ]
+  },
+  {
+    "label": "What ______ you doing at this time yesterday?",
+    "choices": [
+      {"value": "are  ", "correct": false},
+      {"value": "is ", "correct": false},
+      {"value": "was  ", "correct": false},
+      {"value": "were ", "correct": true}
+    ]
+  },
+  {
+    "label": "I haven´t eaten ________.",
+    "choices": [
+      {"value": "already  ", "correct": false},
+      {"value": "yet  ", "correct": true},
+      {"value": "since  ", "correct": false},
+      {"value": "ago  ", "correct": false}
     ]
   }
 ]
