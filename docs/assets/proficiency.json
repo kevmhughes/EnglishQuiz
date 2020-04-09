@@ -1,0 +1,38 @@
+[
+  {
+    "label": "To kill two birds with one _________.",
+    "choices": [
+      {"value": "stone ", "correct": true},
+      {"value": "shot  ", "correct": false},
+      {"value": "arrow  ", "correct": false},
+      {"value": "brick  ", "correct": false}
+    ]
+  },
+  {
+    "label": "I wish you _______ do that!",
+    "choices": [
+      {"value": "didn´t  ", "correct": false},
+      {"value": "did  ", "correct": false},
+      {"value": "hadn´t  ", "correct": false},
+      {"value": "wouldn´t  ", "correct": true}
+    ]
+  },
+  {
+    "label": "She was in _______ of tears after watching Titanic",
+    "choices": [
+      {"value": "seas  ", "correct": false},
+      {"value": "oceans  ", "correct": false},
+      {"value": "rivers ", "correct": false},
+      {"value": "floods  ", "correct": true}
+    ]
+  },
+  {
+    "label": "I don´t understand anything! What is this ________? ",
+    "choices": [
+      {"value": "Gobeldeguk  ", "correct": false},
+      {"value": "Gobbledegook  ", "correct": true},
+      {"value": "Gobledeguk ", "correct": false},
+      {"value": "Gobledegook  ", "correct": false}
+    ]
+  }
+]

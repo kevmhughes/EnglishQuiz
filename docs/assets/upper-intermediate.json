@@ -1,0 +1,37 @@
+[
+  {
+    "label": "If I ____ known that you were coming, I would have baked a cake.",
+    "choices": [
+      {"value": "had  ", "correct": true},
+      {"value": "hadn´t  ", "correct": false},
+      {"value": "were  ", "correct": false},
+      {"value": "have  ", "correct": false}
+    ]
+  },
+  {
+    "label": "You speak very ______.",
+    "choices": [
+      {"value": "quick  ", "correct": false},
+      {"value": "rapid  ", "correct": false},
+      {"value": "fast ", "correct": true},
+      {"value": "slow  ", "correct": false}
+    ]
+  },
+  {
+    "label": "You havent´t seen it, ______ _____?",
+    "choices": [
+      {"value": "haven´t you  ", "correct": false},
+      {"value": "have you  ", "correct": true},
+      {"value": "haven´t I ", "correct": false},
+      {"value": "have I  ", "correct": false}
+    ]
+  },{
+    "label": "Yesterday, he said he _________ be coming today",
+    "choices": [
+      {"value": "was  ", "correct": false},
+      {"value": "is  ", "correct": false},
+      {"value": "does ", "correct": false},
+      {"value": "would  ", "correct": true}
+    ]
+  }
+]
