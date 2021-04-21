@@ -6,6 +6,7 @@ div {
   font-size: 20px;
   font-weight: 350;
   margin: 8px 0px -8px 0px;
+  padding: 20px 0px 0px 0px;
 }
 mat-card {
     margin: auto;
@@ -79,14 +80,14 @@ mat-card-title {
   @media only screen and (max-width: 450px) {
    .intro {
       font-size: 18px;
-      text-align: left;
+      text-align: center;
       margin: 0px 0px -14px 0px;
     }
   }
   @media only screen and (max-width: 370px) {
     .intro {
        font-size: 14px;
-       text-align: left;
+       text-align: center;
        margin: 0px 0px -14px 0px;
      }
    }
