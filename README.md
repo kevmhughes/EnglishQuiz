@@ -10,7 +10,7 @@ It is a quiz, where users can quickly test their level of English according to t
 
 * can choose a level of Engish to be tested on.
 * answer four multiple-choice questions from the chosen level.
-* review their results from the test.
+* review their results on completion of the test.
 * can choose to be tested on a different level of English once they have finished the current test.
 
 # Take a Look at the App [here](https://kevmhughes.github.io/EnglishQuiz/)
