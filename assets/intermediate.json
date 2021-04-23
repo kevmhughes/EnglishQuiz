@@ -31,7 +31,7 @@
       "choices": [
         {"value": "something  ", "correct": false},
         {"value": "anything  ", "correct": true},
-        {"value": "thng  ", "correct": false},
+        {"value": "thing  ", "correct": false},
         {"value": "nothing  ", "correct": false}
       ]
     }
