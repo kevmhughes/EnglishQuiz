@@ -4,7 +4,7 @@
 
 **English Quiz** is a responsive **SPA** built with the **Angular** framework, and using **Angular Material** for the UI design. 
 
-It is a quiz, where users can quickly test their level of English according to the CEFR levels. 
+It is a quiz, where users can quickly test their level of English according to the European CEFR levels. 
 
 ### Users:
 
