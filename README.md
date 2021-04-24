@@ -4,7 +4,7 @@ Take a look at the app [here](https://kevmhughes.github.io/EnglishQuiz/)
 
 # Description
 
-**English Quiz** is a responsive **SPA** built with the **Angular** framework, and using **Angular Material** for the UI design. 
+**English Quiz** is a responsive **SPA** built with the **Angular** framework, using **Angular Material** for the UI design. 
 
 It is a quiz, where users can quickly test their level of English according to the European CEFR levels. 
 
